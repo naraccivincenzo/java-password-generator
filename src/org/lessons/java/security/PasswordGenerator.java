@@ -10,7 +10,7 @@ public class PasswordGenerator {
 		//create a instance of scanner
 		Scanner input = new Scanner(System.in);
 
-		//init the variable and ask the user to put the value
+		//initialize the variable and ask the user to put the value
 		System.out.println("Inserisci il tuo cognome");
 		String lastName = input.nextLine();
 		System.out.println("Inserisci il tuo nome");
