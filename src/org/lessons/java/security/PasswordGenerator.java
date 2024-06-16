@@ -7,10 +7,10 @@ public class PasswordGenerator {
 
 	public static void main(String[] args) {
 
-		//create a instance of scanner
+		// create a instance of scanner
 		Scanner input = new Scanner(System.in);
 
-		//initialize the variable and ask the user to put the value
+		// initialize the variable and ask the user to put the value
 		System.out.println("Inserisci il tuo cognome");
 		String lastName = input.nextLine();
 		System.out.println("Inserisci il tuo nome");
@@ -24,13 +24,13 @@ public class PasswordGenerator {
 		System.out.println("Inserisci il tuo anno di nascita");
 		short year = input.nextShort();
 
-		//close the instance of scanner
+		// close the instance of scanner
 		input.close();
 
-		//sum day, month and year
+		// sum day, month and year
 		int sum = day + month + year;
 
-		//display the generated "SUPERSECURE" password
+		// display the generated "SUPERSECURE" password
 		System.out.println(lastName + "-" + firstName + "-" + color + "-" + sum);
 	}
 
